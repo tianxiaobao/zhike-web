@@ -1,0 +1,15 @@
+{
+    "status":"success",
+    "message": {
+        "DataResult": {
+            "nameSerial": {
+                "name":"是否有孩子", 
+                "cells":["没有","有"]
+            },
+            "dataSerials": [{
+                "name":"占比",
+                "cells":[62.82,37.18]
+            }]
+        }
+    }
+}

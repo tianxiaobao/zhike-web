@@ -1,0 +1,228 @@
+.root  .container{
+	width: 12rem;
+	margin: 0rem auto .6rem;
+    padding-bottom: 0;
+}
+.root .container i.iconfont{
+  font-family:"iconfont" !important;
+  font-size:84px;
+  font-style:normal;
+  color: #448aff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.root .product-abox a:hover{
+    color: #fff;
+}
+.product-banner{
+	height: 4.3rem;
+	background: url(./../../static/images/banner_bg.jpg) 0 0 no-repeat;
+}
+.product-banner h1{
+	font-size: .5rem;
+    color: #333;
+    padding: .55rem 0 .5rem;
+}
+.product-banner p{
+	margin: 0 0 .1rem;
+    color: #666;
+    line-height: .25rem;
+    width: 7rem;
+}
+.product-abox{
+	margin: .5rem 0 .15rem;
+}
+.product-btn,.product-btn-primary:hover{
+	display: inline-block;
+    height: .35rem;
+    line-height: .35rem;
+    padding: 0 .32rem;
+    color: #fff;
+    font-size: .14rem;
+    transition: all .5s ease;
+    border: 1px solid #448aff;
+}
+.product-btn{
+    background: #448aff;
+}
+.product-btn:hover,.product-btn-primary:hover{
+    background: #4733F9;
+}
+.product-btn-primary{
+    display: inline-block;
+    height: .35rem;
+    line-height: .35rem;
+    padding: 0 .32rem;
+    color: #448aff;
+    font-size: .14rem;
+    background: #fff;
+    border:1px solid #448aff;
+    transition: all .5s ease;
+}
+a.free{
+    margin-top: .1rem;
+    color: #448aff;
+    display: inline-block;
+}
+.root  .container a.free:hover{
+    color: #448aff;
+    text-decoration: underline;
+}
+
+/*产品优势*/
+th{font-weight: 400;color:#333;}
+td{color: #333;}
+.func-table {
+    margin: 20px 0;
+}
+.func-table .func-title {
+    width: 18px;
+    text-align: center;
+    background: #f5f5f5;
+    color: #999;
+    font-size: 14px;
+    padding: 12px;
+}
+.func-table .func-tb {
+    padding: 0 24px;
+}
+.func-table .func-module:first-child {
+    margin-top: 0;
+}
+.func-table .func-module {
+    font-size: 14px;
+    color: #666;
+    margin-top: 25px;
+    line-height: 28px;
+}
+.func-table .func-module h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 10px ;
+}
+.func-table .func-module .func-list li{
+    list-style: disc;
+}
+.func-table .func-module .func-list i {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+}
+/*产品功能*/
+.product-function{
+	position: relative;
+    border: 1px solid #ededed;
+    padding: 10px 20px 20px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.product-function h3{
+	background: #fff;
+    position: absolute;
+    left: 25px;
+    top: -10px;
+    padding: 0 20px;
+    color: #999;
+}
+.module-tools-list{}
+.module-tools-list .list-item{
+    float: left;
+    width: 33%;
+    position: relative;
+    text-align: center;
+    padding: .2rem .5rem;
+    box-sizing: border-box;
+}
+.module-tools-list .list-item h5{
+    color: #000;
+    font-weight: bold;
+}
+.module-tools-list li:after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e5e5e5;
+}
+.module-tools-list li:nth-child(3):after,.module-tools-list li:nth-child(6):after{
+    width: 0;
+}
+.module-tools-list:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.list-item:hover,.list-item:hover h5 {
+    cursor: pointer;
+    color: #448aff;
+}
+/*应用场景*/
+.product-scene{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-scene li{
+	vertical-align: middle;
+}
+.product-libox{
+	border: 1px solid #ededed;
+    width: 5rem;
+    height: 1rem;
+    padding: .2rem;
+    position: relative;
+    color: #666;
+}
+.product-libox h3{
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: .25rem;
+    padding: 0 .2rem;
+    transform: translate(0,-50%);
+}
+/*帮助文档*/
+.product-help:before{
+	content: "";
+	display: table;
+}
+.product-help li{
+	width: 25%;
+	float: left;
+	line-height: .28rem;
+	padding-bottom: .2rem;
+}
+.product-help li h5 a{
+	font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.product-help li > a{
+	display: block;
+	font-size: 14px;
+    color: #666;
+}
+.product-help li a:hover, .product-help li a.on{
+	color: #448aff;
+}
+
+#product-nav{
+    display: none;
+}
+#product-nav.active .container{
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+    zoom:1;
+}

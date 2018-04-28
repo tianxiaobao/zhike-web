@@ -1,0 +1,29 @@
+
+.vision-component-X8RWRfAnfiytNV64Aq *{
+    font-family: "Helvetica Neue", 'Microsoft YaHei','Heiti SC',simhei,'Lucida Sans Unicode','Myriad Pro','Hiragino Sans GB',Verdana;
+}
+.vision-component-X8RWRfAnfiytNV64Aq i.icon{
+    font-family: vision-icon-X8RWRfAnfiytNV64Aq !important;
+    font-style: normal;
+    margin: 0;
+}
+
+.vision-component-X8RWRfAnfiytNV64Aq .zhike-global-card{
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15)
+}
+
+.vision-component-X8RWRfAnfiytNV64Aq .zhike-global-ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: 'vision-icon-X8RWRfAnfiytNV64Aq';
+    src: url('../icon/iconfont/iconfont.eot');
+    src: url('../icon/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icon/iconfont/iconfont.woff') format('woff'),
+    url('../icon/iconfont/iconfont.ttf') format('truetype'),
+    url('../icon/iconfont/iconfont.svg#xcloud-iconfont') format('svg');
+}

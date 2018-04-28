@@ -1,0 +1,15 @@
+{
+    "status":"success",
+    "message": {
+        "DataResult": {
+            "nameSerial": {
+                "name":"常用设备操作系统", 
+                "cells":["IOS","Andriod","其他"]
+            },
+            "dataSerials": [{
+                "name":"占比",
+                "cells":[51.91,47.18,0.91]
+            }]
+        }
+    }
+}

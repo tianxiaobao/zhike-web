@@ -1,0 +1,402 @@
+[
+    {
+        "name": "年龄",
+        "value": "age",
+        "children": [
+            {
+                "name": "15岁以下",
+                "value": 0.0044
+            }, {
+                "name": "16-25岁",
+                "value": 0.2096
+            }, {
+                "name": "26-35岁",
+                "value": 0.3793
+            }, {
+                "name": "36-45岁",
+                "value": 0.3565
+            }, {
+                "name": "46-55岁",
+                "value": 0.0453
+            }, {
+                "name": "56岁以上",
+                "value": 0.0049
+            }
+        ]
+    }, {
+        "name": "性别",
+        "value": "sex",
+        "children": [
+            {
+                "name": "男",
+                "value": 0.4822
+            }, {
+                "name": "女",
+                "value": 0.5178
+            }
+        ]
+    }, {
+        "name": "职业",
+        "value": "work",
+        "children": [
+            {
+                "name": "金融从业者",
+                "value": 0.0495
+            }, {
+                "name": "医务人员",
+                "value": 0.0448
+            }, {
+                "name": "公务员/事业单位",
+                "value": 0.1217
+            }, {
+                "name": "白领/一般职员",
+                "value": 0.3529
+            }, {
+                "name": "工人/服务业人员",
+                "value": 0.0722
+            }, {
+                "name": "教师",
+                "value": 0.1263
+            }, {
+                "name": "农民",
+                "value": 0.1451
+            }, {
+                "name": "学生",
+                "value": 0.0876
+            }
+        ]
+    }, {
+        "name": "婚姻",
+        "value": "marriage",
+        "children": [
+            {
+                "name": "已婚",
+                "value": 0.4518
+            }, {
+                "name": "未婚",
+                "value": 0.5482
+            }
+        ]
+    }, {
+        "name": "是否有孩子",
+        "value": "hasChildren",
+        "children": [
+            {
+                "name": "没有",
+                "value": 0.6282
+            }, {
+                "name": "有",
+                "value": 0.3718
+            }
+        ]
+    }, {
+        "name": "孩子年龄",
+        "value": "childrenAge",
+        "children": [
+            {
+                "name": "1-3个月",
+                "value": 0.0595
+            }, {
+                "name": "3-6个月",
+                "value": 0.0548
+            }, {
+                "name": "6-12个月",
+                "value": 0.1337
+            }, {
+                "name": "1-2岁",
+                "value": 0.3628
+            }, {
+                "name": "2-3岁",
+                "value": 0.0878
+            }, {
+                "name": "3-6岁",
+                "value": 0.1363
+            }, {
+                "name": "6岁以上",
+                "value": 0.1651
+            }
+        ]
+    }, {
+        "name": "孩子生日",
+        "value": "childrenBirthday",
+        "children": [
+            {
+                "name": "1月",
+                "value": 0.0465
+            }, {
+                "name": "2月",
+                "value": 0.0494
+            }, {
+                "name": "3月",
+                "value": 0.0888
+            }, {
+                "name": "4月",
+                "value": 0.1759
+            }, {
+                "name": "5月",
+                "value": 0.0721
+            }, {
+                "name": "6月",
+                "value": 0.0912
+            }, {
+                "name": "7月",
+                "value": 0.1104
+            }, {
+                "name": "8月",
+                "value": 0.0465
+            }, {
+                "name": "9月",
+                "value": 0.0493
+            }, {
+                "name": "10月",
+                "value": 0.0888
+            }, {
+                "name": "11月",
+                "value": 0.1090
+            }, {
+                "name": "12月",
+                "value": 0.0721
+            }
+        ]
+    }, {
+        "name": "购买力",
+        "value": "purchasing",
+        "children": [
+            {
+                "name": "土豪",
+                "value": 0.0276
+            }, {
+                "name": "高级白领",
+                "value": 0.0492
+            }, {
+                "name": "小白领",
+                "value": 0.4779
+            }, {
+                "name": "蓝领",
+                "value": 0.3585
+            }, {
+                "name": "收入很少",
+                "value": 0.0868
+            }
+        ] 
+    }, {
+        "name": "敏感度",
+        "value": "sensitivity",
+        "children": [
+            {
+                "name": "极度敏感",
+                "value": 0.1133
+            }, {
+                "name": "高级敏感",
+                "value": 0.351
+            }, {
+                "name": "中度敏感",
+                "value": 0.1396
+            }, {
+                "name": "轻度敏感",
+                "value": 0.1513
+            }, {
+                "name": "不敏感",
+                "value": 0.2448
+            }
+        ] 
+    }, {
+        "name": "京东等级",
+        "value": "level",
+        "children": [
+            {
+                "name": "注册会员",
+                "value": 0.0178
+            }, {
+                "name": "钻石会员",
+                "value": 0.0598
+            }, {
+                "name": "金牌会员",
+                "value": 0.4524
+            }, {
+                "name": "银牌会员",
+                "value": 0.3217
+            }, {
+                "name": "铜牌会员",
+                "value": 0.1483
+            }
+        ] 
+    }, {
+        "name": "个护用户购买力",
+        "value": "beauty",
+        "children": [
+            {
+                "name": "个护无购买",
+                "value": 0.1485
+            }, {
+                "name": "个护消费100元以下",
+                "value": 0.2079
+            }, {
+                "name": "个护消费100-500元",
+                "value": 0.3769
+            }, {
+                "name": "个护消费500-1000元",
+                "value": 0.1421
+            }, {
+                "name": "个护消费1000元以上",
+                "value": 0.1246
+            }
+        ] 
+    }, {
+        "name": "母婴用户购买力",
+        "value": "mombaby",
+        "children": [
+            {
+                "name": "母婴无购买",
+                "value": 0.3136
+            }, {
+                "name": "母婴消费500元以下",
+                "value": 0.4364
+            }, {
+                "name": "母婴消费500-2000元",
+                "value": 0.1653
+            }, {
+                "name": "母婴消费2000-5000元",
+                "value": 0.0576
+            }, {
+                "name": "母婴消费5000元以上",
+                "value": 0.028
+            }
+        ] 
+    }, {
+        "name": "酒类用户购买力",
+        "value": "wine",
+        "children": [
+            {
+                "name": "酒类无购买",
+                "value": 0.332
+            }, {
+                "name": "酒类消费699元以下",
+                "value": 0.4822
+            }, {
+                "name": "酒类消费699-1699元",
+                "value": 0.1131
+            }, {
+                "name": "酒类消费1699-5699元",
+                "value": 0.0549
+            }, {
+                "name": "酒类消费5699元以上",
+                "value": 0.0178
+            }
+        ] 
+    }, {
+        "name": "客户价值",
+        "value": "worth",
+        "children": [
+            {
+                "name": "重要价值",
+                "value": 0.1224
+            }, {
+                "name": "重要发展",
+                "value": 0.1173
+            }, {
+                "name": "重要保持",
+                "value": 0.2307
+            }, {
+                "name": "重要挽留",
+                "value": 0.1648
+            }, {
+                "name": "一般价值",
+                "value": 0.1196
+            }, {
+                "name": "一般发展",
+                "value": 0.1449
+            }, {
+                "name": "一般保持",
+                "value": 0.0522
+            }, {
+                "name": "一般挽留",
+                "value": 0.0481
+            }
+        ] 
+    }, {
+        "name": "用户生命周期",
+        "value": "lifeCycle",
+        "children": [
+            {
+                "name": "考察阶段",
+                "value": 0.0805
+            }, {
+                "name": "形成阶段",
+                "value": 0.1562
+            }, {
+                "name": "适应阶段",
+                "value": 0.2095
+            }, {
+                "name": "成长阶段",
+                "value": 0.1779
+            }, {
+                "name": "稳定阶段",
+                "value": 0.1316
+            }, {
+                "name": "衰退阶段",
+                "value": 0.1125
+            }, {
+                "name": "沉睡阶段",
+                "value": 0.0625
+            }, {
+                "name": "准流失阶段",
+                "value": 0.0493
+            }, {
+                "name": "流失阶段",
+                "value": 0.02
+            }
+        ] 
+    }, {
+        "name": "最近一次购买距今天数",
+        "value": "last-buy",
+        "children": [
+            {
+                "name": "小于7天",
+                "value": 0.288
+            }, {
+                "name": "7到15天",
+                "value": 0.2586
+            }, {
+                "name": "15-30天",
+                "value": 0.1983
+            }, {
+                "name": "30-90天",
+                "value": 0.1382
+            }, {
+                "name": "90天以上",
+                "value": 0.1169
+            }
+        ] 
+    }, {
+        "name": "常用设备操作系统",
+        "value": "deviceOS",
+        "children": [
+            {
+                "name": "IOS",
+                "value": 0.5191
+            }, {
+                "name": "Android",
+                "value": 0.4718
+            }, {
+                "name": "其他",
+                "value": 0.0091
+            }
+        ] 
+    }, {
+        "name": "地域",
+        "value": "area",
+        "children": [
+            {
+                "name": "3公里内",
+                "value": 0.4822
+            }, {
+                "name": "5公里内",
+                "value": 0.7178
+            }, {
+                "name": "20公里内",
+                "value": 0.9823
+            }
+        ] 
+    }
+]

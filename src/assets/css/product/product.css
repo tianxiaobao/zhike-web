@@ -1,0 +1,22 @@
+.root  .container{
+	width: 1200px;
+	margin: 0 auto;
+    padding-bottom: 0;
+}
+.root .graybg{
+    padding-top: 30px;
+    background: #f8faff;
+}
+.root .darkBluebg{
+    background: rgb(1,18,46);
+}
+.root .container i.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clear{
+    clear: both;
+    zoom:1;
+}

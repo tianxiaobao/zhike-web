@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 30% in CN", "> 10%", "last 5 versions", "not ie <= 8"]
+      }
+    }],
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime"
+    // ["component", {
+    //     "libraryName": "jcloud-ele-ui",
+    //     "styleLibraryName": "theme-jcloud"
+    // }]
+  ],
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": ["istanbul"]
+    }
+  }
+}
